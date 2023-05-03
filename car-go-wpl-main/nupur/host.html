@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Host</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="crsl.css">
+    
+
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <!-- <a href="#" class="nav_logo"></a> -->
+            <a href="#" class="logo"><img src="images/cargologowhitef.png" alt="car-logo"></a>
+
+            <ul class="nav_items">
+                <li class="nav_item">
+                    <a href="#" class="nav_link">Home</a>
+                    <a href="#" class="nav_link">Book</a>
+                    <a href="#" class="nav_link">Host</a>
+                    <a href="#" class="nav_link">About</a>
+                    <a href="#" class="nav_link">Contact</a>
+                </li>
+            </ul>
+
+            <button type="button" class="button login-button" id="form-open">
+                Login
+            </button>
+        </nav>
+    </header>
+
+    <div class="topimage">
+        <img src="images/topimage.png" alt="">
+        <h1 id="topimagetext" class="recommend">Host</h1>
+
+    </div>
+
+    <div class="badbad">
+        <!--Services-->
+        <section class="" id=" servicetext">
+            <div class="heading">
+                <h1 class="">Would like to host a car?</h1><br>
+                <br>
+                <span>We require some more details to authenticate our users. Don't worry your data privacy is our
+                    responsibility.</span><br><br>
+                <br>
+                <h1>We are just a few steps away.</h1>
+            </div>
+
+            <!-- form -->
+            <div class="valdiv">
+
+
+                <div class="page-wrapper bg-red p-t-180 p-b-100 font-robo">
+                    <div class="wrapper wrapper--w960">
+                        <div class="card card-2">
+                            <div class="card-heading"></div>
+                            <div class="card-body">
+                                <h2 class="title">Car information</h2>
+                                <form method="POST">
+
+                                    <label class="input--style-2">Brand</label>
+                                    <br>
+                                    <select name="cars" id="cars">
+                                        <option value="Tata">Tata</option>
+                                        <option value="Mahindra">Mahindra</option>
+                                        <option value="Hyundai">Hyundai</option>
+                                        <option value="Honda">Honda</option>
+                                        <option value="BMW">BMW</option>
+                                        <option value="Audi">Audi</option>
+                                        <option value="Skoda">Skoda</option>
+                                        <option value="Toyota">Toyota</option>
+                                    </select><br><br>
+
+                                    <br>
+                                    <div class="input-group">
+                                        <input class="input--style-2" type="text" placeholder="Model Name"
+                                            name="Model Name">
+                                    </div>
+                                    <div class="row row-space">
+                                        <div class="col-2">
+                                            <div class="input-group">
+                                                <input class="input--style-2 js-datepicker" type="text"
+                                                    placeholder="Manufacturing date" name="birthday">
+                                                <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
+                                            </div>
+                                        </div>
+                                        <div class="input-group">
+                                            <input class="input--style-2" type="text" placeholder="Kms Driven" name="">
+                                        </div>
+                                        <div class="col-2">
+
+                                        </div>
+                                    </div>
+
+                                    <div class="input-group">
+                                        <input class="input--style-2" type="text"
+                                            placeholder="Vehicle Registration Number" name="">
+                                    </div>
+
+
+                                    <div class="input-group">
+                                        <input class="input--style-2" type="tel" placeholder="Colour" name="">
+                                    </div>
+
+
+
+
+
+
+
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="page-wrapper bg-red p-t-180 p-b-100 font-robo">
+                    <div class="wrapper wrapper--w960">
+                        <div class="card card-2">
+                            <div class="card-heading"></div>
+                            <div class="card-body">
+                                <h2 class="title">document upload</h2>
+                                <form method="POST">
+
+                                    <div class="input-group">
+                                        <label class="input--style-2" for="">Upload Registration Certificate (RC)
+                                        </label>
+                                        <br>
+                                        <input type="file" id="myFile" name="">
+                                    </div>
+                                    <br><br>
+                                    <div class="input-group">
+                                        <label class="input--style-2" for="">Upload
+                                            Pollution Under Control (PUC) Certificate </label>
+                                        <br>
+                                        <input type="file" id="myFile" name="">
+                                    </div>
+                                    <br><br>
+                                    <div class="input-group">
+                                        <label class="input--style-2" for="">Upload
+                                            Car insurance policy </label>
+                                        <br>
+                                        <input type="file" id="myFile" name="">
+                                    </div>
+
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="page-wrapper bg-red p-t-180 p-b-100 font-robo">
+                    <div class="wrapper wrapper--w960">
+                        <div class="card card-2">
+                            <div class="card-heading"></div>
+                            <div class="card-body">
+                                <h2 class="title">car photos</h2>
+                                <form method="POST">
+
+                                    <div class="input-group">
+                                        <label class="input--style-2" for="">Upload front-view
+                                            image of your existing car </label>
+                                        <br>
+                                        <input type="file" id="myFile" name="">
+                                    </div><br><br>
+                                    <div class="input-group">
+                                        <label class="input--style-2" for="">Upload left-view
+                                            image of your existing car </label>
+                                        <br>
+                                        <input type="file" id="myFile" name="">
+                                    </div><br><br>
+                                    <div class="input-group">
+                                        <label class="input--style-2" for="">Upload right-view
+                                            image of your existing car </label>
+                                        <br>
+                                        <input type="file" id="myFile" name="">
+                                    </div><br><br>
+                                    <div class="input-group">
+                                        <label class="input--style-2" for="">Upload rear-view
+                                            image of your existing car </label>
+                                        <br>
+                                        <input type="file" id="myFile" name="">
+                                    </div>
+                                    <br><br>
+                                    <!-- agree terms k liye -->
+
+                                    <div class="input-group">
+
+                                        <label class="form-check-label" for="form2Example3g">
+                                            I agree all statements in <a href="#!" class="text-body"><u>Terms of
+                                                    service</u></a><input class="input-box" type="checkbox" value=""
+                                                id="form2Example3cg" required />
+                                        </label>
+                                    </div>
+
+
+
+
+                                    <!-- button k liye  -->
+                                    <div class="row row-space">
+                                        <div class="col-2">
+
+                                        </div>
+                                    </div>
+                                    <div class="p-t-30">
+                                        <button class="btn btn--radius btn--green" type="submit">Submit</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+</div><br><br>
+ <!--Services-->
+ <section class="" id=" servicetext">
+    <div class="heading">
+        <h1 class=""></h1><br>
+        <br>
+        <span>We require some more details to authenticate our users. Don't worry your data privacy is our
+            responsibility.</span><br><br>
+        <br>
+        <h1>We will revert back to your request as soon as possible. Thankyou</h1>
+    </div>
+
+
+
+</body>
+
+</html>

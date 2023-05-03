@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carousel try</title>
+    <link rel="stylesheet" href="carousel.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;900&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <section class="product">
+        <h2 class="recommend">Sugestions</h2>
+
+        <div class="container">
+
+            <div class="card">
+                <div class="image">
+                    <span class="rating">3⭐️ (23 trips)</span>
+                    <img class="thumb" src="images/apple.jpeg" alt="car image">
+                    <button class="view-btn" onclick="openPopup()">view</button>
+                </div>
+                <div class = "info">
+                    <h2 class="carname">car name</h2>
+                    <p class="desc">Automatic , diesel , 5 seats</p>
+                    <hr>
+                    <p class="availability">availability : dates</p>
+                    <span class="price">Rs.150/hr</span>
+                    <span class="location">📍Mumbai</span>
+
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="image">
+                    <span class="rating">3⭐️ (23 trips)</span>
+                    <img class="thumb" src="images/apple.jpeg" alt="car image">
+                    <button class="view-btn" onclick="openPopup()">view</button>
+                </div>
+                <div class = "info">
+                    <h2 class="carname">car name</h2>
+                    <p class="desc">Automatic , diesel , 5 seats</p>
+                    <hr>
+                    <p class="availability">availability : dates</p>
+                    <span class="price">Rs.150/hr</span>
+                    <span class="location">📍Mumbai</span>
+
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="image">
+                    <span class="rating">3⭐️ (23 trips)</span>
+                    <img class="thumb" src="images/apple.jpeg" alt="car image">
+                    <button class="view-btn" onclick="openPopup()">view</button>
+                </div>
+                <div class = "info">
+                    <h2 class="carname">car name</h2>
+                    <p class="desc">Automatic , diesel , 5 seats</p>
+                    <hr>
+                    <p class="availability">availability : dates</p>
+                    <span class="price">Rs.150/hr</span>
+                    <span class="location">📍Mumbai</span>
+
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="image">
+                    <span class="rating">3⭐️ (23 trips)</span>
+                    <img class="thumb" src="images/apple.jpeg" alt="car image">
+                    <button class="view-btn" onclick="openPopup()">view</button>
+                </div>
+                <div class = "info">
+                    <h2 class="carname">car name</h2>
+                    <p class="desc">Automatic , diesel , 5 seats</p>
+                    <hr>
+                    <p class="availability">availability : dates</p>
+                    <span class="price">Rs.150/hr</span>
+                    <span class="location">📍Mumbai</span>
+
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="image">
+                    <span class="rating">3⭐️ (23 trips)</span>
+                    <img class="thumb" src="images/apple.jpeg" alt="car image">
+                    <button class="view-btn" onclick="openPopup()">view</button>
+                </div>
+                <div class = "info">
+                    <h2 class="carname">car name</h2>
+                    <p class="desc">Automatic , diesel , 5 seats</p>
+                    <hr>
+                    <p class="availability">availability : dates</p>
+                    <span class="price">Rs.150/hr</span>
+                    <span class="location">📍Mumbai</span>
+
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="image">
+                    <span class="rating">3⭐️ (23 trips)</span>
+                    <img class="thumb" src="images/apple.jpeg" alt="car image">
+                    <button class="view-btn" onclick="openPopup()">view</button>
+                </div>
+                <div class = "info">
+                    <h2 class="carname">car name</h2>
+                    <p class="desc">Automatic , diesel , 5 seats</p>
+                    <hr>
+                    <p class="availability">availability : dates</p>
+                    <span class="price">Rs.150/hr</span>
+                    <span class="location">📍Mumbai</span>
+
+                </div>
+            </div>
+
+           
+
+
+
+        </div>
+
+         <div class="popup" id="popup">
+            <img class="" src="images/altroz red.webp" alt="img">
+            <h2>Altrox it is </h2>
+            <p>acchi h bhai lele</p>
+            <p class="desc">Automatic , diesel , 5 seats</p>
+                    <hr>
+                    <p class="availability">availability : dates</p>
+                    <span class="price">Rs.150/hr</span><br>
+                    <span class="location">📍Mumbai</span>
+                    <hr>
+                    <p class="popuptitle">About The Host</p>
+                    <p class="hostname">👤 Kunal Bhilare</p>
+                    <p>Zoomhost since Feb'20</p>
+                    <hr>
+                    <p class="popuptitle">About The Car</p>
+                    <p>3⭐️ (23 trips)</p>
+                    <p>90,150 kms driven</p>
+                    <p>Car Location: Balagere Main Road, Varthur, Mumbao 560087, India</p>
+
+            <button type="button" onclick="closePopup()">Close</button>
+        </div>
+
+        <script>
+        let popup = document.getElementById("popup");
+    
+        function openPopup(){
+            popup.classList.add("open-popup");
+        }
+    
+        function closePopup(){
+            popup.classList.remove("open-popup");
+        }
+    </script> 
+
+
+    </section>
+</body>
+</html>

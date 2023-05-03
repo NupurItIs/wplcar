@@ -1,0 +1,599 @@
+<style>
+  body{
+    background-image: url(images/bgimaindull.png);
+    /* background-size: auto; */
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    
+  }
+</style>
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home </title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Unicons -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <!-- buttons for ride container -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="icon" href="images/cargologo.png">
+    <!-- chnage below  -->
+  
+  </head>
+  <body>
+    <!-- <header>
+        <a href="#" class="logo"><img src="car-rental.png" alt="car-logo"></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+          <li> <a href="#home">Home</a></li>
+          <li> <a href="#ride">Ride</a></li>
+          <li> <a href="#services">Services</a></li>
+          <li> <a href="#about">About</a></li>
+          <li> <a href="#review">Reveiw</a></li>
+          <li> <a href="#contact">Contact</a></li>
+        </ul>
+        <div class="header-btn">
+            
+            <a href="#" class="host">Login/ Signup</a>
+        </div>
+    </header> -->
+
+
+    <!-- <!-- Header -->
+    <header class="header">
+      <nav class="nav">
+        <!-- <a href="#" class="nav_logo"></a> -->
+        <a href="#" class="logo"><img src="images/cargologowhitef.png" alt="car-logo"></a>
+
+        <ul class="nav_items">
+          <li class="nav_item">
+            <a href="#" class="nav_link">Home</a>
+            <a href="#" class="nav_link">Book</a>
+            <a href="#" class="nav_link">Host</a>
+            <a href="#" class="nav_link">About</a>
+            <a href="#" class="nav_link">Contact</a>
+          </li>
+        </ul> 
+
+        <button type="button" class="button login-button" id="form-open">
+          Login
+        </button>
+      </nav>
+    </header>
+
+    <!-- Home -->
+    <section class="home">
+      <div class="form_container">
+        <i class="uil uil-times form_close"></i>
+        <!-- Login From -->
+        <div class="form login_form">
+          <form action="#">
+            <h2>Login</h2>
+
+            <div class="input_box">
+              <input type="email" placeholder="Enter your email" required id="login_email" />
+              <i class="uil uil-envelope-alt email"></i>
+            </div>
+            <div class="input_box">
+              <input
+                type="password"
+                placeholder="Enter your password"
+                required
+                id="login_password"
+              />
+              <i class="uil uil-lock password"></i>
+              <i class="uil uil-eye-slash pw_hide"></i>
+            </div>
+
+            <div class="option_field">
+              <span class="checkbox">
+                <input type="checkbox" id="check" />
+                <label for="check">Remember me</label>
+              </span>
+              <a href="#" class="forgot_pw">Forgot password?</a>
+            </div>
+
+            <button class="button login-now" id="login_button">
+              Login Now
+            </button>
+
+            <div class="login_signup">
+              Don't have an account? <a href="#" id="signup">Signup</a>
+            </div>
+          </form>
+        </div>
+
+        <!-- Signup From -->
+        <div class="form signup_form">
+          <form action="#">
+            <h2>Signup</h2>
+
+            <div class="input_box">
+              <input type="email" placeholder="Enter your email" id="signup_email" required />
+              <i class="uil uil-envelope-alt email"></i>
+            </div>
+            <div class="input_box">
+              <input type="password" placeholder="Create password" id="signup_password" required />
+              <i class="uil uil-lock password"></i>
+              <i class="uil uil-eye-slash pw_hide"></i>
+            </div>
+            <div class="input_box">
+              <input type="password" placeholder="Confirm password"  required />
+              <i class="uil uil-lock password"></i>
+              <i class="uil uil-eye-slash pw_hide"></i>
+            </div>
+
+            <button class="button" id="sign-button">Signup Now</button>
+
+            <div class="login_signup">
+              Already have an account? <a href="#" id="login">Login</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <div>
+      <section class="textsection">
+      <div class="text">
+        <h1><span>FIND</span>  <br>THAT CAR</h1>
+        <p>The perfect car for your next trip is just around the corner!</p>
+        <p>So What are you waiting for? Book Now !!!</p>
+        <!-- <div class="appstores">
+          <img src="ios.webp" alt="ios" height="65" width="170">
+          <img src="play.png" alt="play" height="100" width="200">
+        </div> -->
+      </div>
+    </section>
+    <section class="searchsection">
+      <!-- <div>
+        <div class="text">
+          <h1><span>FIND</span>  <br>THAT CAR</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur <br> adipisicing elit. Omnis ab aperiam quas.</p>
+          <!-- <div class="appstores">
+            <img src="ios.webp" alt="ios" height="65" width="170">
+            <img src="play.png" alt="play" height="100" width="200">
+          </div> -->
+        <!-- </div> --> -->
+    <div class="form-container">
+    <form action="">
+        <div class="input-box">
+        <span>Location</span>
+        <input type="search" name="" id="" placeholder="Search Places">
+        </div>
+        <div class="input-box">
+            <span>Pick-Up Date</span>
+            <input type="date" name="" id="">
+        </div>
+        <div class="input-box">
+            <span>Return Date</span>
+            <input type="date" name="" id="">
+        </div>
+        <input type="submit" name="" id="" class="btn">
+    </form>
+</div>
+
+      </div>
+    
+    </section>
+  
+    
+
+    
+
+
+        <!-- <section class="home" id="home"> -->
+          
+
+     <div class="popup" id="popup">
+        <img class="" src="images/altroz red.webp" alt="img">
+        <h2>Altrox it is </h2>
+        <p>acchi h bhai lele</p>
+        <p class="desc">Automatic , diesel , 5 seats</p>
+                <hr>
+                <p class="availability">availability : dates</p>
+                <span class="price">Rs.150/hr</span><br>
+                <span class="location">📍Mumbai</span>
+                <hr>
+                <p class="popuptitle">About The Host</p>
+                <p class="hostname">👤 Kunal Bhilare</p>
+                <p>Zoomhost since Feb'20</p>
+                <hr>
+                <p class="popuptitle">About The Car</p>
+                <p>3⭐️ (23 trips)</p>
+                <p>90,150 kms driven</p>
+                <p>Car Location: Balagere Main Road, Varthur, Mumbao 560087, India</p>
+                
+
+        <button type="button" onclick="closePopup()">Close</button>
+    </div>
+
+
+
+    <section class="ride" id="ride">
+      <div class="heading">
+          <span>How it Work</span>
+          <h1>Rent with 3 easy Steps</h1>
+      </div>
+  </section>
+  <!--Ride-->
+  <div class="ride-container">
+      <div class="box">
+          <i class='bx bx-map'></i>
+          <h2>Choose a location</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium fuga fugiat ex!</p>
+      </div>
+
+      <div class="box">
+          <i class='bx bxs-calendar-check'></i>
+          <h2>Pick-Up Date</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium fuga fugiat ex!</p>
+      </div>
+
+      <div class="box">
+          <i class='bx bxs-calendar-star'></i>
+          <h2>Book a Car</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium fuga fugiat ex!</p>
+      </div>
+  </div>
+
+  <!-- corousel -->
+<section class="product">
+  <h2 class="recommend"> Our Sugestions</h2>
+
+  <div class="containercarousel">
+  
+      <div class="cardo">
+          <div class="image">
+              <span class="rating">3⭐️ (23 trips)</span>
+              <img class="thumb" src="images/apple.jpeg" alt="car image">
+              <button class="view-btn" onclick="openPopup()">view</button>
+          </div>
+          <div class = "info">
+              <h2 class="carname">car name</h2>
+              <p class="desc">Automatic , diesel , 5 seats</p>
+              <hr>
+              <p class="availability">availability : dates</p>
+              <span class="price">Rs.150/hr</span>
+              <span class="location">📍Mumbai</span>
+
+          </div>
+      </div>
+
+      <div class="cardo">
+          <div class="image">
+              <span class="rating">3⭐️ (23 trips)</span>
+              <img class="thumb" src="images/apple.jpeg" alt="car image">
+              <button class="view-btn" onclick="openPopup()">view</button>
+          </div>
+          <div class = "info">
+              <h2 class="carname">car name</h2>
+              <p class="desc">Automatic , diesel , 5 seats</p>
+              <hr>
+              <p class="availability">availability : dates</p>
+              <span class="price">Rs.150/hr</span>
+              <span class="location">📍Mumbai</span>
+
+          </div>
+      </div>
+
+      <div class="cardo">
+          <div class="image">
+              <span class="rating">3⭐️ (23 trips)</span>
+              <img class="thumb" src="images/apple.jpeg" alt="car image">
+              <button class="view-btn" onclick="openPopup()">view</button>
+          </div>
+          <div class = "info">
+              <h2 class="carname">car name</h2>
+              <p class="desc">Automatic , diesel , 5 seats</p>
+              <hr>
+              <p class="availability">availability : dates</p>
+              <span class="price">Rs.150/hr</span>
+              <span class="location">📍Mumbai</span>
+
+          </div>
+      </div>
+
+      <div class="cardo">
+          <div class="image">
+              <span class="rating">3⭐️ (23 trips)</span>
+              <img class="thumb" src="images/apple.jpeg" alt="car image">
+              <button class="view-btn" onclick="openPopup()">view</button>
+          </div>
+          <div class = "info">
+              <h2 class="carname">car name</h2>
+              <p class="desc">Automatic , diesel , 5 seats</p>
+              <hr>
+              <p class="availability">availability : dates</p>
+              <span class="price">Rs.150/hr</span>
+              <span class="location">📍Mumbai</span>
+
+          </div>
+      </div>
+
+      <div class="cardo">
+          <div class="image">
+              <span class="rating">3⭐️ (23 trips)</span>
+              <img class="thumb" src="images/apple.jpeg" alt="car image">
+              <button class="view-btn" onclick="openPopup()">view</button>
+          </div>
+          <div class = "info">
+              <h2 class="carname">car name</h2>
+              <p class="desc">Automatic , diesel , 5 seats</p>
+              <hr>
+              <p class="availability">availability : dates</p>
+              <span class="price">Rs.150/hr</span>
+              <span class="location">📍Mumbai</span>
+
+          </div>
+      </div>
+
+      <div class="cardo">
+          <div class="image">
+              <span class="rating">3⭐️ (23 trips)</span>
+              <img class="thumb" src="images/apple.jpeg" alt="car image">
+              <button class="view-btn" onclick="openPopup()">view</button>
+          </div>
+          <div class = "info">
+              <h2 class="carname">car name</h2>
+              <p class="desc">Automatic , diesel , 5 seats</p>
+              <hr>
+              <p class="availability">availability : dates</p>
+              <span class="price">Rs.150/hr</span>
+              <span class="location">📍Mumbai</span>
+
+          </div>
+      </div>
+</div>
+     
+
+<div class="serfea">
+
+   <!--Services-->
+   <section class="services" id="">
+    <div class="heading">
+        <span>Best Services</span>
+        <h1>Explore Out Top Deals <br> From Top Rated Dealers</h1>
+    </div>
+    <div class="servies-container">
+        <div class="box">
+            <div class="box-img">
+                <img src="" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- feautures -->
+<section class="services" id="">
+  <div class="heading">
+      <span>Best car rental offers and services features:</span>
+      <h1>Explore And Drive Everywhere With Freedom </h1>
+  </div>
+  <div class="servies-container">
+      <div class="box">
+          <div class="box-img">
+              <img src="" alt="">
+          </div>
+      </div>
+  </div>
+</section>
+</div>
+
+
+<!-- unmatched benfits -->
+<section class="product" id="benefits">
+  <h2 class="recommend">Unmatched Benefits</h2>
+
+  <div class="containercarousel">
+    <div class="cardo">
+      <div class="image">
+        <img class="thumb" src="images/solid-payoutpayment secured.webp" alt="car image" />
+      </div>
+      <div class="info">
+        <h2 class="carname">Secured Payments</h2>
+        <p class="desc">We authenticate the hosts and the renters</p>
+        <p class="desc">and make sure you have secured payments </p>  
+      </div>
+    </div>
+
+    <div class="cardo">
+        <div class="image">
+          <img class="thumb" src="images/tech asssis.png" alt="car image" />
+        </div>
+        <div class="info">
+          <h2 class="carname">Emergency Technical assistence</h2>
+          <p class="desc">We understand emergencies</p>
+          <p class="desc">and we got your back if you have any  </p>  
+        </div>
+      </div>
+
+      <div class="cardo">
+        <div class="image">
+          <img class="thumb" src="images/unlimited-mileage-car-rental.jpeg" alt="car image" />
+        </div>
+        <div class="info">
+          <h2 class="carname">Unlimited Kms</h2>
+          <p class="desc">We understand fun trips come with long drives</p>
+          <p class="desc">enjoy unlimited kms without restrictions</p>  
+        </div>
+      </div>
+
+     
+
+  </div>
+</section>
+
+ <!--Services-->
+ <section class="" id="serexp">
+  <div class="heading">
+      <span>WE LOVE GIVING BEST EXPERIENCES</span>
+      <h1>We cover you under all the circumstances to ensure the best journey
+
+   </h1>
+  </div>
+  <div class="servies-container">
+      <div class="box">
+          <div class="box-img">
+              <img src="" alt="">
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<div class="about" id="about">
+    <h1 class="recommend">about us</h1>
+    <p class="paraaboutus">CAR-GO is an initiative todays organising comfy drives in a rented car. From short road trips to quick in-city drives for groceries, supply pick-up, food runs, we have the cheapest car rental options for all your needs! A hatchback for daily commute, a sedan for short trips, SUV for hills or a luxury car for a surprise.</p>
+    <br> <br><p class="paraaboutus">  CAR-GO, you can experience the convenience of online booking. You can drive unlimited KMs, 0 Security Deposit, 0 Toll Charges, and 24/7 Roadside Assistance. Car rent per KM starts as low as Rs. 49/hour. From short road trips to quick in-city drives for groceries, supply pick-up, meeting friends and family, doctor visits, business trips, we have the cheapest car rental options for all your needs! A hatchback for daily commute, a sedan for short trips, SUV for hills or a luxury car for a surprise.</p>
+</div>
+
+<div class="contactus">
+  <h1 class="recommend">Contact us</h1>
+
+
+  <img src="images/team.png" alt="">
+</div>
+
+
+<!-- isssue: not coming width 100%  -->
+<!-- <nav class="copyright">
+  <p> &#169; All Rigths Reserved</p>
+  <div class="social">
+      <a href="#"><i class='bx bxl-meta' ></i></a>
+      <a href=""><i class='bx bxl-twitter' ></i></a>
+      <a href="#"><i class='bx bxl-instagram' ></i></a>
+  </div>
+</nav> -->
+
+    <!-- <script>
+    let popup = document.getElementById("popup");
+
+    function openPopup(){
+        popup.classList.add("open-popup");
+    }
+
+    function closePopup(){
+        popup.classList.remove("open-popup");
+    }
+</script>  -->
+
+
+
+    <script type="module">
+      
+      // Import the functions you need from the SDKs you need
+
+
+
+
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.20.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.20.0/firebase-analytics.js";
+      import {
+        getAuth,
+        signInWithEmailAndPassword,
+        createUserWithEmailAndPassword,
+      } from "https://www.gstatic.com/firebasejs/9.20.0/firebase-auth.js";
+      import {
+        getDatabase,
+        ref,
+        set,
+      } from "https://www.gstatic.com/firebasejs/9.20.0/firebase-database.js";
+
+
+
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+
+
+
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyB_ir9Z-orm6hAC5FM4NiTPP21hJySA85c",
+        authDomain: "wpl-miniproject-5cee8.firebaseapp.com",
+        databaseURL:
+          "https://wpl-miniproject-5cee8-default-rtdb.firebaseio.com",
+        projectId: "wpl-miniproject-5cee8",
+        storageBucket: "wpl-miniproject-5cee8.appspot.com",
+        messagingSenderId: "64870738232",
+        appId: "1:64870738232:web:92683fd9c7d177b28779cd",
+        measurementId: "G-ZES8X9K7X5",
+      };
+
+      // // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+      const auth = getAuth(app);
+      const database = getDatabase(app);
+
+      
+      // ihdhiasd
+      function login() {
+        const email = document.getElementById("login_email");
+        const password = document.getElementById("login_password");
+        
+        signInWithEmailAndPassword(auth, email.value, password.value)
+            .then((user) => {
+                if (user) {
+                    console.log(user.user.uid);
+                } else {
+                    console.log("No user");
+                }
+            })
+            .catch((error) => {
+                console.log(error);
+            });
+      
+      }
+      document
+        .getElementById("login_button")
+        .addEventListener("click", login);
+
+      function register() {
+        const email = document.getElementById("signup_email");
+        const password = document.getElementById("signup_password");
+
+        createUserWithEmailAndPassword(
+          auth,
+          email.value,
+          password.value
+        )
+        .then((user) => {
+                if (user) {
+                    console.log(user);
+                } else {
+                    console.log("No user");
+                }
+            })
+            .catch((error) => {
+                console.log(error);
+            });
+      }
+      document
+        .getElementById("sign-button")
+        .addEventListener("click", register);
+
+
+
+
+
+
+
+    </script>
+
+    <script src="index.js"></script>
+    <script src="firebase.js"></script>
+  </body>
+</html> -->

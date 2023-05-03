@@ -1,0 +1,221 @@
+body {
+    font-family: "Mulish", sans-serif;
+}
+
+
+.recommend{
+    padding: 0 10vw;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}
+
+
+.container {
+    background-color: #f6eefd;
+    /* padding: 20px; */
+    padding: 20px 10vw;
+
+    display: flex;
+    /* size: auto; */
+
+    scroll-behavior: smooth;
+
+    overflow: auto;        /* vvvvv imppp  */
+
+    position: relative;
+    width: 100%;
+
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+        .card {
+            background: #ffffff;
+            height: 450px;
+            width: 450px;
+
+            /* flex: 0 0 auto; */
+            margin-right: 40px;
+            border-radius: 10px;
+
+
+        }
+
+            .image {
+                background: #ffffff;
+                position: relative;
+
+                border-top-right-radius: 10px;
+                border-top-left-radius: 10px;
+                
+                /* overflow: hidden; */
+            }
+
+            .rating{
+                text-transform: capitalize;
+                background: #ffffff;
+                color: #f89393;
+                border-radius: 5px;
+
+                position: absolute;
+                padding: 5px;
+                top: -10px;
+                right: 5px;
+
+            }
+
+            .thumb {
+                height: 250px;
+                width: 450px;
+                
+                border-top-right-radius: 10px;
+                border-top-left-radius: 10px;
+
+                /* object-fit: cover; */
+                
+
+            }
+
+            /* sorted */
+            .view-btn {
+                text-transform: capitalize;
+                font-weight: 550;
+                border: none;
+                outline: none;
+                background-color: rgb(255, 255, 255);
+                border-radius: 5px;
+
+                position: absolute;
+                /* transform: translateX(-50%); */
+                bottom: 10px;
+                /* left: 50%; */
+                left: 5%;
+                width: 90%;
+                padding: 10px;
+
+
+                transition: 0.5s;
+                opacity: 0;
+
+
+            }
+
+            .card:hover .view-btn {
+                opacity: 1;
+            }
+
+            .view-btn:hover {
+                background: #f89393;
+                color: #ffffff;
+            }
+
+.info {
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+    /* height: 100%; */
+    /* width: 100%;  */
+    /* position: absolute; */
+}
+
+.carname {
+    text-transform: uppercase;
+    margin: 5px 30px;
+
+}
+
+.desc {
+    text-transform: capitalize;
+    opacity: 0.5;
+    
+    margin: 20px 30px;
+    
+}
+
+.availability {
+    text-transform: capitalize;
+    opacity: 0.5;
+    margin: 10px 30px;
+
+}
+
+.price {
+    margin: 20px 30px;
+    line-height: 40px;
+    font-weight: 900;
+    font-size: larger;
+
+}
+
+.location {
+    margin-left: 50px;
+    text-transform: capitalize;
+    margin-left: 190px;   
+    font-size: larger; 
+}
+
+
+
+/* popup */
+
+.popup{
+    width: 1000px;
+    background: rgb(216, 216, 251);
+    border-radius: 6px;
+    position: absolute;
+    /* top: 50%; */
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0px 30px 30px;
+    visibility: hidden;
+
+    transition: tranform 0.4s, top 0.4s;
+
+    
+}
+
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+
+}
+
+.popup img{
+    height: 50px;
+    width: 80px;
+    margin-top: -25px;
+    box-shadow: 0 2px 5px #435d52;
+}
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+
+}
+
+.popup button{
+    width: 50%;
+    margin: 50px 0 0 0;
+    padding: 10px 0;
+    background: #c4baf6;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px #435d52;
+
+
+
+}
+
+.popuptitle{
+opacity: 0.5;
+}
+
